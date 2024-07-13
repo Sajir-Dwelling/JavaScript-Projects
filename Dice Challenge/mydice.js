@@ -1,3 +1,5 @@
+function rolldice() {
+
 var diceNumber = Math.floor(Math.random()*6)+1; //setting the number from 1-6
 
 var diceImage = "dice"+diceNumber+".png"; //random png image according to the random diceNumber 
@@ -19,4 +21,4 @@ else if(diceNumber<diceNumber2){
 else{
     document.querySelector("h1").innerHTML = "🤝Draw!";
 }
-
+}
