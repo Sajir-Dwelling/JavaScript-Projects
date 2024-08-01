@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   <link rel="stylesheet" href="message.css">
+</head>
+<body>
+    <div class="container">
+        <div class="message">
+            <h1 style="text-align: center;">Submit The Message</h1>
+            <p style="border-bottom: 1px solid lightgrey;"></p>
+            <p> 
+                <label for="messag-input">Enter the message</label><br>
+                <button style="border-radius: 5px 0 0 5px;"><i class="fa-regular fa-envelope" id="envelop"></i></button>
+                <input id="messag-input" type="text">
+            </p>
+            <p>
+                <button id="submit" onclick="send_message()">Submit</button>
+            </p>
+            <p id="message-output" style="text-align: center; text-transform: uppercase;"></p>
+        </div>
+
+    </div>
+<script src="message.js"></script>
+</body>
+</html>

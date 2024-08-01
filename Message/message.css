@@ -1,0 +1,39 @@
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    height: 95vh;
+    display: flex;
+}
+
+.message{
+    margin: auto;
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.message input{
+    width: 500px;
+    height: 20px;
+}
+
+#submit{
+    background-color: whitesmoke;
+    color: red;
+    border-radius: 5px 0 5px 0;
+    width: 6rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: black;
+    color: orange;
+}
