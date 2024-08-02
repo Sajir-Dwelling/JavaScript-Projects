@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&display=swap');
+
+body{
+    font-family: "Poiret One", sans-serif;
+    background:  conic-gradient(from -90deg at 50% 105%, white, orchid);
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    height: 97vh;
+}
+
+.clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    height: 380px;
+    border: 2px solid rgba(93, 70, 106, 0.383);
+    padding: 20px;
+    line-height: 20px;
+    background-color: rgba(120, 112, 112, 0.052);
+    color: black;
+}
+
