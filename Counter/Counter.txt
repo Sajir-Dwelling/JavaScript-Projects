@@ -1,0 +1,17 @@
+//var start=0;
+
+//function increase(){
+  //  start++;
+    //document.getElementById("change").innerHTML = start;
+//}
+
+//function decrease(){
+  //  start--;
+    //document.getElementById("change").innerHTML = start;
+//}
+
+
+//function reset_number(){
+  //  start = 0;
+    //document.getElementById("change").innerHTML=start;
+//}
