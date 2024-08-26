@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align:  center;
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(171, 168, 168);
+    color: black;
+    }
+
+#user-input{
+    text-align: center;
+}
+
+
+
